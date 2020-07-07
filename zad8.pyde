@@ -58,13 +58,11 @@ def mouseClicked():
     if mouseX >100 and mouseX<200:
         if mouseY >10 and mouseY <30:
             library.lendBook(Adrian.requestBook("Harry Potter"))
-        if mouseY >40 and mouseY <60:
-            library.addBook(Adrian.returnBook())
-        if mouseY >10 and mouseY <30:
-             library.lendBook(Tomek.requestBook("Sens Sztuki"))
-        if mouseY >40 and mouseY <60:
-            library.addBook(Tomek.returnBook())
-        if mouseY >10 and mouseY <30:
+            library.lendBook(Tomek.requestBook("Sens Sztuki"))
             library.lendBook(Ola.requestBook("Naocznosc"))
         if mouseY >40 and mouseY <60:
+            library.addBook(Adrian.returnBook())
+            library.addBook(Tomek.returnBook())
             library.addBook(Ola.returnBook())
+        #powielanie warunków to zła praktyka
+#0,5/0,5pkt za tę część
