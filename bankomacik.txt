@@ -1,0 +1,11 @@
+klasa Bankomat
+	funkcja wyplacaniePieniedzy
+	funkcja wplacaniePieniedzy
+	funkcja pokazywanieStanuKonta
+klasa Klient
+	zmienna stanPortfela
+	zmienna numerKontaWBanku
+	funkcja pobieraniePieniedzy
+	funkcja dawaniePieniedzy
+
+0,75/1,5pkt za tę część
